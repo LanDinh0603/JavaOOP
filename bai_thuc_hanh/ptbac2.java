@@ -1,14 +1,16 @@
-package lab_2;
+package bai_thuc_hanh;
+import java.util.Scanner;
 
-public class pt_bac_2 {
+public class ptbac2 {
     public static void main(String[] args) {
-        int a = scanner.nextInt();
-        System.out.println("Nhap a: ");
-        int b = scanner.nextInt();
-        System.out.println("Nhap b: ");
-        int c = scanner.nextInt();
-        System.out.println("Nhap c: ");
-        
+        Scanner myObjScanner = new Scanner(System.in);
+        System.out.print("Nhap a: ");
+        int a = myObjScanner.nextInt();
+        System.out.print("Nhap b: ");
+        int b = myObjScanner.nextInt();
+        System.out.print("Nhap c: ");
+        int c = myObjScanner.nextInt();
+          
         if(a == 0) {
             if(b == 0) {
                 if(c == 0){
